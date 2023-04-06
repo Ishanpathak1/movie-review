@@ -19,6 +19,8 @@ pip install flask
 pip install nltk
 ```
 
+#### if pip is not working use pip3 instead of pip
+
 ### make file name test.py and paste the below code
 
 ```python
