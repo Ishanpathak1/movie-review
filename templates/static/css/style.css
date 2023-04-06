@@ -1,0 +1,56 @@
+/* Set the font family and background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Set the styles for the header */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Style the h1 tag inside the header */
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Set the styles for the main content area */
+  main {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 5px #999;
+  }
+  
+  /* Style the h2 tag inside the main content area */
+  main h2 {
+    margin-top: 0;
+  }
+  
+  /* Set the styles for the pie chart image */
+  img {
+    display: block;
+    margin: auto;
+  }
+  
+  /* Style the positive and negative summary sections */
+  .summary {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #999;
+  }
+  
+  /* Style the positive summary section */
+  .positive {
+    background-color: #e6ffe6;
+    border-color: #33cc33;
+  }
+  
+  /* Style the negative summary section */
+  .negative {
+    background-color: #ffe6e6;
+    border-color: #ff3333;
+  }
+  

@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Movie Reviews</title>
+    <title>Sentiment Analysis of Movie Reviews</title>
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-    <h1>Movie Reviews</h1>
-    <form method="POST">
-        <label for="movie_name">Enter the name of the movie:</label>
-        <input type="text" id="movie_name" name="movie_name" required>
-        <button type="submit">Search</button>
-    </form>
-    
-    {% if reviews %}
-        <h2>Reviews:</h2>
-        {% for review in reviews %}
-            <p>{{ review }}</p>
-        {% endfor %}
-    {% endif %}
+    <div class="container">
+        <h1>Sentiment Analysis of Movie Reviews</h1>
+        <form method="POST" action="{{ url_for('sentiment_analysis') }}">
+            <label for="movie_name">Enter the name of the movie:</label>
+            <input type="text" name="movie_name" id="movie_name">
+            <input type="submit" value="Analyze">
+        </form>
+    </div>
 </body>
 </html>
