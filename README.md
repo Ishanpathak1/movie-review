@@ -21,7 +21,7 @@ pip install nltk
 
 #### if pip is not working use pip3 instead of pip
 
-### make file name test.py and paste the below code
+### make file name test.py and paste the below code and then after saving run it
 
 ```python
 import nltk
