@@ -34,7 +34,7 @@ nltk.download('vader_lexicon')
 pip install --upgrade certifi
 ```
 
-#### replace the code in test.py with
+#### replace the code in test.py with and then run this after saving it
 
 ```python
 import ssl
